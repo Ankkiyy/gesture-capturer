@@ -1,0 +1,24 @@
+{
+  "name": "gesture-capturer",
+  "version": "1.0.0",
+  "description": "A tool to capture hand gestures using MediaPipe and save them via a Node.js backend.",
+  "homepage": "https://github.com/Ankkiyy/gesture-capturer#readme",
+  "bugs": {
+    "url": "https://github.com/Ankkiyy/gesture-capturer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankkiyy/gesture-capturer.git"
+  },
+  "license": "ISC",
+  "author": "Ankit Prajapati",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
